@@ -11,7 +11,7 @@ class TestUtils(unittest.TestCase):
         result = slugify('        ')
         self.assertEqual(result, '')
 
-    def test_simplePhrase(self):
+    def test_easyPhrase(self):
         result = slugify('Hello World!')
         self.assertEqual(result, 'hello-world')
 
